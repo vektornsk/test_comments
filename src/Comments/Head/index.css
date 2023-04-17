@@ -1,0 +1,21 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 8px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--white30);
+}
+
+.head-like {
+    color: var(--white30);
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+@media (max-width: 550px) {
+    .head {
+        margin-bottom: 20px;
+    }
+}

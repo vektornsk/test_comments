@@ -1,0 +1,9 @@
+.items__child {
+    margin-left: 40px;
+}
+
+@media (max-width: 550px) {
+    .items__child {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+:root {
+    --white: #fff;
+    --white30: #ffffff30;
+    --white60: #ffffff60;
+    --red: #ff0000;
+}
+
+.comments {
+    color: var(--white);
+    font-size: 16px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.comments__buttons {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.btn {
+    padding: 10px 40px;
+    background: var(--white30);
+    border-radius: 5px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all;
+}
+
+.btn:hover,
+.btn:focus {
+    background: var(--white60);
+}
+
+@media (max-width: 550px) {
+    .comments {
+        font-size: 14px;
+    }
+}
